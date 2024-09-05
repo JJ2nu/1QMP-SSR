@@ -1,0 +1,945 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Engine">
+      <UniqueIdentifier>{accb024e-b4de-43de-8ed9-ddc3176b86ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\InputSystem">
+      <UniqueIdentifier>{ede09e89-5351-4cb8-9651-ff863ec6f2a8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object">
+      <UniqueIdentifier>{37fc38b0-cf88-446e-ad06-d988862ae68a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\GameObject">
+      <UniqueIdentifier>{1e2cc9ab-70f9-4ffd-9076-3094a43e3aa0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\Component">
+      <UniqueIdentifier>{2fdd6f9d-ee9c-4695-b0bd-88300a46f82a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\Component\ScriptComponent">
+      <UniqueIdentifier>{b614ef52-97aa-43cc-aa4e-68c2343f0b9a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\Component\ColliderComponent">
+      <UniqueIdentifier>{2c721748-3f32-49d0-91ad-155fb0f76c02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource">
+      <UniqueIdentifier>{14b0f6a2-43f8-4776-980a-abc833de1cbe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Texture">
+      <UniqueIdentifier>{99473b9f-5ce7-413c-bce5-6d55f11bf524}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\Sound">
+      <UniqueIdentifier>{b2df1cb0-c1b6-45da-96bb-1a169b394851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Transform">
+      <UniqueIdentifier>{8d91d932-3d9f-4417-85fb-18dd78f716a6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Client">
+      <UniqueIdentifier>{26a440f3-96d8-46e4-bec7-07c66540bc08}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\GameManager">
+      <UniqueIdentifier>{23791e95-1da8-4833-9a60-6156b84def47}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Render">
+      <UniqueIdentifier>{f5714b4c-d9d4-487c-8bb5-b79e1cc12fe0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Time">
+      <UniqueIdentifier>{f90eae58-e07b-4c45-bcf9-c75fa4adec36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ResourceManager">
+      <UniqueIdentifier>{4fb81b73-4207-47df-9f3d-1e07d9a5b050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ColliderManager">
+      <UniqueIdentifier>{a0801006-d97e-4274-ad48-90b63719cae6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\EventManager">
+      <UniqueIdentifier>{3e2b5d38-d950-47fe-9e67-300843044b29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneManager">
+      <UniqueIdentifier>{82ffc567-a2ec-4674-9f1e-297312f3e5ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test">
+      <UniqueIdentifier>{6e3e362f-8f1f-4b95-a5de-75659a1dfb8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\SceneBase">
+      <UniqueIdentifier>{61f04d50-02c5-4344-b36a-c6d0f55441da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Resource\AnimationResource">
+      <UniqueIdentifier>{627d18b1-6ff2-41e3-8140-1c6600b485a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\TestScene">
+      <UniqueIdentifier>{529046a9-e877-4ae7-a1bb-02c41c88589e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\ObjectManager">
+      <UniqueIdentifier>{06f31e46-86e8-4233-8230-e86c819c0f74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Prototype">
+      <UniqueIdentifier>{b09cdbf7-4c4e-40d5-8400-58a0a9b8de7a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\Component\RenderComponent">
+      <UniqueIdentifier>{4f8bfe66-769d-4b0b-9aaf-f770165d80a4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\Component\RenderComponent\TextureComponent">
+      <UniqueIdentifier>{de07c172-62cd-40de-8ea2-8386bfafb656}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\Component\RenderComponent\AnimationComponent">
+      <UniqueIdentifier>{f7395005-4f34-4347-8e72-3e4910e830e4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon">
+      <UniqueIdentifier>{111c30ec-9cc8-4c1e-be89-b580bdd9a6f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\Homing">
+      <UniqueIdentifier>{c3197e57-5710-432b-9501-345d56557043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\AreaWeapon">
+      <UniqueIdentifier>{cb56784d-02ca-4f69-950b-eb79da0f5d84}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Unit">
+      <UniqueIdentifier>{3e46b582-253e-48c5-b2aa-171b9af7cebf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\AreaWeapon\LaserWeapon">
+      <UniqueIdentifier>{8a19efa4-0f4e-4890-ba1d-b346b1cc5036}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\AreaWeapon\CrossAreaWeapon">
+      <UniqueIdentifier>{6b3e196a-51c8-4477-b226-4790ac702aa1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\GameObject\ButtonGameObject">
+      <UniqueIdentifier>{1532a274-9afb-40b0-9763-11917dccd49e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Unit\Boss">
+      <UniqueIdentifier>{e27c0666-e2e9-40af-adf5-d85a825341b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\CrossHair">
+      <UniqueIdentifier>{ebc01bae-d804-4baa-a7b4-7f9b1c6f388a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\PrototypeBackGround">
+      <UniqueIdentifier>{b1780719-421e-421e-92fe-e62f7a68b56c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\Projectile">
+      <UniqueIdentifier>{25459978-33b6-4c3b-94aa-c8d0cef3fcac}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Item">
+      <UniqueIdentifier>{d613453e-7532-4479-be32-f039ecf09a2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Unit\Player">
+      <UniqueIdentifier>{bd6ab7a0-9204-45b5-8bb5-754d951e31f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Unit\Player\PlayerBullet">
+      <UniqueIdentifier>{ee099e06-83f3-40f5-8605-31a4c6e4a4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI">
+      <UniqueIdentifier>{e827e61e-fb4d-48ab-b8aa-4ad0b1fe81d0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Observer">
+      <UniqueIdentifier>{6585b030-a215-4c41-95ee-2551f2ae2195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\PlayerHPUI">
+      <UniqueIdentifier>{56b3d024-8977-486c-9c46-bdf2477616c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\PlayerShipUI">
+      <UniqueIdentifier>{62a795ca-9204-4822-a748-cce764127395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\CharacterPlayUI">
+      <UniqueIdentifier>{344c45f7-0a54-4a07-b1b0-de571dac077c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\StartUI">
+      <UniqueIdentifier>{68cd2fbb-c0b1-41be-a497-dabaf7d2ca5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Engine\Object\Component\RenderComponent\TextComponent">
+      <UniqueIdentifier>{5899b428-6c33-4e00-a7fe-97a3868c0fc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\BossPageUI">
+      <UniqueIdentifier>{88bc9184-f4cc-4dc8-befb-26004b7cfe68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\TextScriptUI">
+      <UniqueIdentifier>{7dd017c0-38c0-4ad6-b027-407c9024fa31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\Projectile\SlowMissile">
+      <UniqueIdentifier>{53d7a5a4-cb7b-446f-994d-02fb62b2490b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\Projectile\FastMissile">
+      <UniqueIdentifier>{5284da59-6db5-42db-8562-884dcd91e884}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\Projectile\Meteor">
+      <UniqueIdentifier>{59ace889-805b-4ca9-a135-87846e5473aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{4d69b48d-4234-4591-afb7-07b201a8b1b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage_1">
+      <UniqueIdentifier>{ff32c47a-1be5-4eca-ae40-9f600306c4d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage_2">
+      <UniqueIdentifier>{e8bcb68d-1793-4140-8fc3-3dbe7f0582ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Stage_3">
+      <UniqueIdentifier>{137628b6-4ce3-49f0-b716-75a542d435c7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MainMenu">
+      <UniqueIdentifier>{e0c13734-d61c-43ba-bceb-0946edd9fd53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\UI">
+      <UniqueIdentifier>{46400757-5eac-42b9-93da-5c6215b104cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\CommonObject">
+      <UniqueIdentifier>{a06e4829-6a42-44b1-ac2b-412a38a0634e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\test_kang">
+      <UniqueIdentifier>{e88bbf5b-be4e-47f5-bfe2-790ea43a991e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\CutSeneBossObject">
+      <UniqueIdentifier>{acf7f154-0ba2-4f44-b9e8-9219e23a809b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\BossHPUI">
+      <UniqueIdentifier>{31291a9d-73c6-40f9-ae6a-59b981356f9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\BossHPUI\BossHPRenderComponent">
+      <UniqueIdentifier>{dd09301d-5ca4-407b-9da5-b143e31e7563}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\UI\FadeInFadeOut">
+      <UniqueIdentifier>{0664b114-8bac-4128-b376-10540d0da91e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\START">
+      <UniqueIdentifier>{7ae7fbbb-44ee-4779-9d63-4c97265ab253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SALLY">
+      <UniqueIdentifier>{6238e1b6-852b-4dcc-8cda-ecdacf03b048}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\INTRODUCTION_STORY_NEWS">
+      <UniqueIdentifier>{c197637d-a63f-498d-af96-bffe0ab1505a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\INTRODUCTION_STORY_BRIEFING">
+      <UniqueIdentifier>{c89b8def-c9fa-4bfe-9970-0879dd95ed72}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\UPGRADE">
+      <UniqueIdentifier>{620afe0f-f534-45be-b8b2-a81ae3e67851}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MIDDLE_STORY_01">
+      <UniqueIdentifier>{09c90e47-6430-48e4-a18c-f5cfedf4d40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\MIDDLE_STORY_02">
+      <UniqueIdentifier>{32abf2c6-cc79-4f7e-afa3-67d8e55f81a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ENDING_STORY">
+      <UniqueIdentifier>{d72a08b4-31b3-4dba-b6bb-f30c191d50a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SHIP_DIRECTING_BOSS_01">
+      <UniqueIdentifier>{1109d5be-451f-4239-8e25-cf4ed581a221}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SHIP_DIRECTING_BOSS_03">
+      <UniqueIdentifier>{7a2a2463-eaa8-4e4a-8c9b-54a60a17336c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\ENDING">
+      <UniqueIdentifier>{32b9179d-65d5-48e6-8d96-8f4521eeb686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Cokpit_Scene">
+      <UniqueIdentifier>{a2d84774-fe9e-4b77-9f0d-612518b43910}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Test\Weapon\Supporting">
+      <UniqueIdentifier>{f80a145a-2c58-46ff-bc3d-f92656befc50}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\Tutorial_Scene">
+      <UniqueIdentifier>{3479a57b-032c-49c0-b167-c34899bf3e88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene\SHIP_DIRECTING_BOSS_02">
+      <UniqueIdentifier>{a8a735ec-75d9-4c62-9fcf-a2acba2d6064}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="WinApp.cpp">
+      <Filter>Engine</Filter>
+    </ClCompile>
+    <ClCompile Include="InputSystem.cpp">
+      <Filter>Engine\InputSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>Engine\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Engine\Object\GameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Component.cpp">
+      <Filter>Engine\Object\Component</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderComponent.cpp">
+      <Filter>Engine\Object\Component\ColliderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="ScriptComponent.cpp">
+      <Filter>Engine\Object\Component\ScriptComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureComponent.cpp">
+      <Filter>Engine\Object\Component\RenderComponent\TextureComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="Resource.cpp">
+      <Filter>Engine\Resource</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Engine\Resource\Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector3.cpp">
+      <Filter>Engine\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="Transform.cpp">
+      <Filter>Engine\Transform</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>Engine\GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="GameRender.cpp">
+      <Filter>Engine\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="GameTime.cpp">
+      <Filter>Engine\Time</Filter>
+    </ClCompile>
+    <ClCompile Include="ResourceManager.cpp">
+      <Filter>Engine\ResourceManager</Filter>
+    </ClCompile>
+    <ClCompile Include="ColliderManager.cpp">
+      <Filter>Engine\ColliderManager</Filter>
+    </ClCompile>
+    <ClCompile Include="EventManager.cpp">
+      <Filter>Engine\EventManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>Engine\SceneManager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>Engine\SceneBase</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationResource.cpp">
+      <Filter>Engine\Resource\AnimationResource</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationComponent.cpp">
+      <Filter>Engine\Object\Component\RenderComponent\AnimationComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="RenderComponent.cpp">
+      <Filter>Engine\Object\Component\RenderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="SampleScene.cpp">
+      <Filter>Test\TestScene</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjectManager.cpp">
+      <Filter>Engine\ObjectManager</Filter>
+    </ClCompile>
+    <ClCompile Include="PrototypeScene.cpp">
+      <Filter>Prototype</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerScript.cpp">
+      <Filter>Test\Unit\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossHairScript.cpp">
+      <Filter>Test\CrossHair</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingWeaponObject.cpp">
+      <Filter>Test\Weapon\Homing</Filter>
+    </ClCompile>
+    <ClCompile Include="HomingWeaponScript.cpp">
+      <Filter>Test\Weapon\Homing</Filter>
+    </ClCompile>
+    <ClCompile Include="AreaWeaponScript.cpp">
+      <Filter>Test\Weapon\AreaWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="WeaponScript.cpp">
+      <Filter>Test\Weapon</Filter>
+    </ClCompile>
+    <ClCompile Include="LaserWeaponScript.cpp">
+      <Filter>Test\Weapon\AreaWeapon\LaserWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossAreaWeaponObject.cpp">
+      <Filter>Test\Weapon\AreaWeapon\CrossAreaWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="CrossAreaWeaponScript.cpp">
+      <Filter>Test\Weapon\AreaWeapon\CrossAreaWeapon</Filter>
+    </ClCompile>
+    <ClCompile Include="ButtonGameObject.cpp">
+      <Filter>Engine\Object\GameObject\ButtonGameObject</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBulletScript.cpp">
+      <Filter>Test\Unit\Player\PlayerBullet</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBuffAreaScript.cpp">
+      <Filter>Test\Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>Test\Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHPUIScript.cpp">
+      <Filter>Test\UI\PlayerHPUI</Filter>
+    </ClCompile>
+    <ClCompile Include="CharacterPlayUIScript.cpp">
+      <Filter>Test\UI\CharacterPlayUI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextComponent.cpp">
+      <Filter>Engine\Object\Component\RenderComponent\TextComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="BossPageUIScript.cpp">
+      <Filter>Test\UI\BossPageUI</Filter>
+    </ClCompile>
+    <ClCompile Include="ProjectileWeaponScript.cpp">
+      <Filter>Test\Weapon\Projectile</Filter>
+    </ClCompile>
+    <ClCompile Include="SlowMissileScript.cpp">
+      <Filter>Test\Weapon\Projectile\SlowMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="FastMissileScript.cpp">
+      <Filter>Test\Weapon\Projectile\FastMissile</Filter>
+    </ClCompile>
+    <ClCompile Include="MeteorScript.cpp">
+      <Filter>Test\Weapon\Projectile\Meteor</Filter>
+    </ClCompile>
+    <ClCompile Include="BackGroundScript.cpp">
+      <Filter>Test\PrototypeBackGround</Filter>
+    </ClCompile>
+    <ClCompile Include="CutSceneBossScript.cpp">
+      <Filter>Test\UI\CutSeneBossObject</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHPUIScript.cpp">
+      <Filter>Test\UI\BossHPUI</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHPRenderComponent.cpp">
+      <Filter>Test\UI\BossHPUI\BossHPRenderComponent</Filter>
+    </ClCompile>
+    <ClCompile Include="FadeInFadeOutScript.cpp">
+      <Filter>Test\UI\FadeInFadeOut</Filter>
+    </ClCompile>
+    <ClCompile Include="FaidInFadeOutRenderComponent.cpp">
+      <Filter>Test\UI\FadeInFadeOut</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureUIScript.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Start_Menu.cpp">
+      <Filter>Scene\START</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenuScene.cpp">
+      <Filter>Scene\MainMenu</Filter>
+    </ClCompile>
+    <ClCompile Include="Sally_Scene.cpp">
+      <Filter>Scene\SALLY</Filter>
+    </ClCompile>
+    <ClCompile Include="TypingTextUIScript.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="NumberPrintUIScript.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="FontScript.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="StartStageUIScript.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending_Story_Scene.cpp">
+      <Filter>Scene\ENDING_STORY</Filter>
+    </ClCompile>
+    <ClCompile Include="Story_Briefing_Scene.cpp">
+      <Filter>Scene\INTRODUCTION_STORY_BRIEFING</Filter>
+    </ClCompile>
+    <ClCompile Include="Ending_Credits_Scene.cpp">
+      <Filter>Scene\ENDING</Filter>
+    </ClCompile>
+    <ClCompile Include="Middle_Story_01_Scene.cpp">
+      <Filter>Scene\MIDDLE_STORY_01</Filter>
+    </ClCompile>
+    <ClCompile Include="Middle_Story_02_Scene.cpp">
+      <Filter>Scene\MIDDLE_STORY_02</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship_Directing_Boss_01_Scene.cpp">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_01</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship_Directing_Boss_02_Scene.cpp">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_02</Filter>
+    </ClCompile>
+    <ClCompile Include="Ship_Directing_Boss_03_Scene.cpp">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_03</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss1Script.cpp">
+      <Filter>Scene\CommonObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss2Script.cpp">
+      <Filter>Scene\CommonObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss3Script.cpp">
+      <Filter>Scene\CommonObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Cokpit_Script.cpp">
+      <Filter>Scene\Cokpit_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Story_News_Scene.cpp">
+      <Filter>Scene\INTRODUCTION_STORY_NEWS</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTureUI_Input_Script.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTureUIDelayScript.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTureUIIoopScript.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_01_Scene.cpp">
+      <Filter>Scene\Stage_1</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_02_Scene.cpp">
+      <Filter>Scene\Stage_2</Filter>
+    </ClCompile>
+    <ClCompile Include="Boss_03_Scene.cpp">
+      <Filter>Scene\Stage_3</Filter>
+    </ClCompile>
+    <ClCompile Include="SupportingMissileScript.cpp">
+      <Filter>Test\Weapon\Supporting</Filter>
+    </ClCompile>
+    <ClCompile Include="Tutorial_Scene.cpp">
+      <Filter>Scene\Tutorial_Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="TextTureUITutorialScript.cpp">
+      <Filter>Scene\UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Upgrade_Scene.cpp">
+      <Filter>Scene\UPGRADE</Filter>
+    </ClCompile>
+    <ClCompile Include="EndingStory_TextureScript.cpp">
+      <Filter>Scene\ENDING_STORY</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="WinApp.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>Engine</Filter>
+    </ClInclude>
+    <ClInclude Include="InputSystem.h">
+      <Filter>Engine\InputSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>Engine\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Engine\Object\GameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Component.h">
+      <Filter>Engine\Object\Component</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderComponent.h">
+      <Filter>Engine\Object\Component\ColliderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="ScriptComponent.h">
+      <Filter>Engine\Object\Component\ScriptComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureComponent.h">
+      <Filter>Engine\Object\Component\RenderComponent\TextureComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Engine\Resource</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Engine\Resource\Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Engine\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="Transform.h">
+      <Filter>Engine\Transform</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>Engine\GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="GameRender.h">
+      <Filter>Engine\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="GameTime.h">
+      <Filter>Engine\Time</Filter>
+    </ClInclude>
+    <ClInclude Include="ResourceManager.h">
+      <Filter>Engine\ResourceManager</Filter>
+    </ClInclude>
+    <ClInclude Include="ColliderManager.h">
+      <Filter>Engine\ColliderManager</Filter>
+    </ClInclude>
+    <ClInclude Include="EventManager.h">
+      <Filter>Engine\EventManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>Engine\SceneManager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>Engine\SceneBase</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationResource.h">
+      <Filter>Engine\Resource\AnimationResource</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationComponent.h">
+      <Filter>Engine\Object\Component\RenderComponent\AnimationComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="RenderComponent.h">
+      <Filter>Engine\Object\Component\RenderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleScene.h">
+      <Filter>Test\TestScene</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjectManager.h">
+      <Filter>Engine\ObjectManager</Filter>
+    </ClInclude>
+    <ClInclude Include="PrototypeScene.h">
+      <Filter>Prototype</Filter>
+    </ClInclude>
+    <ClInclude Include="PrototypeBackgroundObject.h">
+      <Filter>Test\PrototypeBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerGameObject.h">
+      <Filter>Test\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerScript.h">
+      <Filter>Test\Unit\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossHairObject.h">
+      <Filter>Test\CrossHair</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossHairScript.h">
+      <Filter>Test\CrossHair</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingWeaponObject.h">
+      <Filter>Test\Weapon\Homing</Filter>
+    </ClInclude>
+    <ClInclude Include="HomingWeaponScript.h">
+      <Filter>Test\Weapon\Homing</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaWeaponObject.h">
+      <Filter>Test\Weapon\AreaWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="AreaWeaponScript.h">
+      <Filter>Test\Weapon\AreaWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponObject.h">
+      <Filter>Test\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="WeaponScript.h">
+      <Filter>Test\Weapon</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserWeaponObject.h">
+      <Filter>Test\Weapon\AreaWeapon\LaserWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="LaserWeaponScript.h">
+      <Filter>Test\Weapon\AreaWeapon\LaserWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossAreaWeaponObject.h">
+      <Filter>Test\Weapon\AreaWeapon\CrossAreaWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="CrossAreaWeaponScript.h">
+      <Filter>Test\Weapon\AreaWeapon\CrossAreaWeapon</Filter>
+    </ClInclude>
+    <ClInclude Include="ButtonGameObject.h">
+      <Filter>Engine\Object\GameObject\ButtonGameObject</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBulletObject.h">
+      <Filter>Test\Unit\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBulletScript.h">
+      <Filter>Test\Unit\Player\PlayerBullet</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBuffAreaScript.h">
+      <Filter>Test\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBuffAreaObject.h">
+      <Filter>Test\Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>Test\Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHPUIScript.h">
+      <Filter>Test\UI\PlayerHPUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHPUI.h">
+      <Filter>Test\UI\PlayerHPUI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerShipUI.h">
+      <Filter>Test\UI\PlayerShipUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterPlayUI.h">
+      <Filter>Test\UI\CharacterPlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="CharacterPlayUIScript.h">
+      <Filter>Test\UI\CharacterPlayUI</Filter>
+    </ClInclude>
+    <ClInclude Include="StartStageUI.h">
+      <Filter>Test\UI\StartUI</Filter>
+    </ClInclude>
+    <ClInclude Include="SampleSceneUI.h">
+      <Filter>Test\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextComponent.h">
+      <Filter>Engine\Object\Component\RenderComponent\TextComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="BossPageUI.h">
+      <Filter>Test\UI\BossPageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BossPageUIScript.h">
+      <Filter>Test\UI\BossPageUI</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileWeaponObject.h">
+      <Filter>Test\Weapon\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="ProjectileWeaponScript.h">
+      <Filter>Test\Weapon\Projectile</Filter>
+    </ClInclude>
+    <ClInclude Include="SlowMissileObject.h">
+      <Filter>Test\Weapon\Projectile\SlowMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="SlowMissileScript.h">
+      <Filter>Test\Weapon\Projectile\SlowMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="MeteorScript.h">
+      <Filter>Test\Weapon\Projectile\Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMissileScript.h">
+      <Filter>Test\Weapon\Projectile\FastMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMissileObject.h">
+      <Filter>Test\Weapon\Projectile\FastMissile</Filter>
+    </ClInclude>
+    <ClInclude Include="MeteorObject.h">
+      <Filter>Test\Weapon\Projectile\Meteor</Filter>
+    </ClInclude>
+    <ClInclude Include="BackGroundScript.h">
+      <Filter>Test\PrototypeBackGround</Filter>
+    </ClInclude>
+    <ClInclude Include="CutSceneBossObject.h">
+      <Filter>Test\UI\CutSeneBossObject</Filter>
+    </ClInclude>
+    <ClInclude Include="CutSceneBossScript.h">
+      <Filter>Test\UI\CutSeneBossObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHPUI.h">
+      <Filter>Test\UI\BossHPUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHPUIScript.h">
+      <Filter>Test\UI\BossHPUI</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHPRenderComponent.h">
+      <Filter>Test\UI\BossHPUI\BossHPRenderComponent</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeInFadeOutObject.h">
+      <Filter>Test\UI\FadeInFadeOut</Filter>
+    </ClInclude>
+    <ClInclude Include="FadeInFadeOutScript.h">
+      <Filter>Test\UI\FadeInFadeOut</Filter>
+    </ClInclude>
+    <ClInclude Include="FaidInFadeOutRenderComponent.h">
+      <Filter>Test\UI\FadeInFadeOut</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureUIScript.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Start_Menu.h">
+      <Filter>Scene\START</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuBackGroundUI.h">
+      <Filter>Scene\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenuScene.h">
+      <Filter>Scene\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="HardButtonUI.h">
+      <Filter>Scene\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="NormalButtonUI.h">
+      <Filter>Scene\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialButtonUI.h">
+      <Filter>Scene\MainMenu</Filter>
+    </ClInclude>
+    <ClInclude Include="Sally_Scene.h">
+      <Filter>Scene\SALLY</Filter>
+    </ClInclude>
+    <ClInclude Include="Sally_Object.h">
+      <Filter>Scene\SALLY</Filter>
+    </ClInclude>
+    <ClInclude Include="TypingTextUIScript.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="NumberPrintUIScript.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TypingTextUI.h">
+      <Filter>Scene\INTRODUCTION_STORY_NEWS</Filter>
+    </ClInclude>
+    <ClInclude Include="TestNumberPrintUI.h">
+      <Filter>Scene\INTRODUCTION_STORY_NEWS</Filter>
+    </ClInclude>
+    <ClInclude Include="Story01_Dialog_News.h">
+      <Filter>Scene\INTRODUCTION_STORY_NEWS</Filter>
+    </ClInclude>
+    <ClInclude Include="Story02_Dialog_Briefing.h">
+      <Filter>Scene\INTRODUCTION_STORY_BRIEFING</Filter>
+    </ClInclude>
+    <ClInclude Include="NewsBackGroundUI.h">
+      <Filter>Scene\INTRODUCTION_STORY_NEWS</Filter>
+    </ClInclude>
+    <ClInclude Include="FontScript.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="StartStageUIScript.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending_Story_Scene.h">
+      <Filter>Scene\ENDING_STORY</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingStoryBackGroundUI.h">
+      <Filter>Scene\ENDING_STORY</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingStory_Dialog.h">
+      <Filter>Scene\ENDING_STORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Story_Briefing_Scene.h">
+      <Filter>Scene\INTRODUCTION_STORY_BRIEFING</Filter>
+    </ClInclude>
+    <ClInclude Include="StoryBriefingBackGroundUI.h">
+      <Filter>Scene\INTRODUCTION_STORY_BRIEFING</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending_Credits_Scene.h">
+      <Filter>Scene\ENDING</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingCreditsObject.h">
+      <Filter>Scene\ENDING</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Story_01_Scene.h">
+      <Filter>Scene\MIDDLE_STORY_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Story_02_Scene.h">
+      <Filter>Scene\MIDDLE_STORY_02</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship_Directing_Boss_01_Scene.h">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship_Directing_Boss_02_Scene.h">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_02</Filter>
+    </ClInclude>
+    <ClInclude Include="Ship_Directing_Boss_03_Scene.h">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_03</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipDirectingBoss_01_Object.h">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_01</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipDirectingBoss_02_Object.h">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_02</Filter>
+    </ClInclude>
+    <ClInclude Include="ShipDirectingBoss_03_Object.h">
+      <Filter>Scene\SHIP_DIRECTING_BOSS_03</Filter>
+    </ClInclude>
+    <ClInclude Include="Story_Briefing_ButtonUI.h">
+      <Filter>Scene\INTRODUCTION_STORY_BRIEFING</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending_Story_ButtonUI.h">
+      <Filter>Scene\ENDING_STORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Story_News_ButtonUI.h">
+      <Filter>Scene\INTRODUCTION_STORY_NEWS</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Story_01_ButtonUI.h">
+      <Filter>Scene\MIDDLE_STORY_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Story_02_ButtonUI.h">
+      <Filter>Scene\MIDDLE_STORY_02</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Story_01_BackGroundUI.h">
+      <Filter>Scene\MIDDLE_STORY_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Story_02_BackGroundUI.h">
+      <Filter>Scene\MIDDLE_STORY_02</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss1Script.h">
+      <Filter>Scene\CommonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss2Script.h">
+      <Filter>Scene\CommonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss3Script.h">
+      <Filter>Scene\CommonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="BossGameObject.h">
+      <Filter>Scene\CommonObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Cokpit_Script.h">
+      <Filter>Scene\Cokpit_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Cokpit_BackGroundUI.h">
+      <Filter>Scene\Cokpit_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Story_News_Scene.h">
+      <Filter>Scene\INTRODUCTION_STORY_NEWS</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTureUIIoopScript.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTureUI_Input_Script.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTureUIDelayScript.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_01_Scene.h">
+      <Filter>Scene\Stage_1</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_02_Scene.h">
+      <Filter>Scene\Stage_2</Filter>
+    </ClInclude>
+    <ClInclude Include="Boss_03_Scene.h">
+      <Filter>Scene\Stage_3</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportingMissileObject.h">
+      <Filter>Test\Weapon\Supporting</Filter>
+    </ClInclude>
+    <ClInclude Include="SupportingMissileScript.h">
+      <Filter>Test\Weapon\Supporting</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial_Scene.h">
+      <Filter>Scene\Tutorial_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Tutorial_BackGroundUI.h">
+      <Filter>Scene\Tutorial_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="TextTureUITutorialScript.h">
+      <Filter>Scene\UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Upgrade_Scene.h">
+      <Filter>Scene\UPGRADE</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeButtonUI_01.h">
+      <Filter>Scene\UPGRADE</Filter>
+    </ClInclude>
+    <ClInclude Include="UpgradeBackGroundUI.h">
+      <Filter>Scene\UPGRADE</Filter>
+    </ClInclude>
+    <ClInclude Include="Text_Tutorial_ESC.h">
+      <Filter>Scene\Tutorial_Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Sally_Dialog.h">
+      <Filter>Scene\SALLY</Filter>
+    </ClInclude>
+    <ClInclude Include="Sally_button.h">
+      <Filter>Scene\SALLY</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Story_01_Dialog.h">
+      <Filter>Scene\MIDDLE_STORY_01</Filter>
+    </ClInclude>
+    <ClInclude Include="Middle_Story_02_Dialog.h">
+      <Filter>Scene\MIDDLE_STORY_02</Filter>
+    </ClInclude>
+    <ClInclude Include="EndingStory_TextureScript.h">
+      <Filter>Scene\ENDING_STORY</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending_Credits_BackGround.h">
+      <Filter>Scene\ENDING</Filter>
+    </ClInclude>
+    <ClInclude Include="Ending_Button.h">
+      <Filter>Scene\MainMenu</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneSet.h" />
+    <ClInclude Include="Start_BackGroundUI.h">
+      <Filter>Scene\START</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
